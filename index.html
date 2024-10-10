@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body{
+            font-family: karla, montserrat;
+            min-height: 100vh;
+            display: grid;
+            place-content: center;
+            background-color: bisque;
+        }
+
+        .container{
+            background-color: aliceblue;
+            padding: 2rem;
+            border-radius: .5rem;
+        }
+
+        input{
+            padding: .3rem;
+            border: 1px solid gray;
+            border-radius: .5rem;
+        }
+
+        select{
+            padding: .3rem;
+            border-radius: .5rem;
+        }
+
+        button{
+            font-family: inherit;
+            background-color: inherit;
+            padding: .3rem;
+            border-radius: .5rem;
+            transition: 400ms;
+        }
+
+        button:hover{
+            transform: translateY(-0.5rem);
+        }
+    </style>
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            Basic Arithmetic Calculator 2.0<br><br>
+            Value 1: <input type="number" id="value1"><br><br>
+            Value 2: <input type="number" id="value2"><br><br>
+            Operator:
+            <select id="operator">
+                <option value="add">Add</option>
+                <option value="min">Minus</option>
+                <option value="div">Divide</option>
+                <option value="mul">Multiple</option>
+                <option value="expo">Exponent</option>
+            </select><br><br>
+            <button type="button" onclick="calc()">Calculate</button>
+        </form><br>
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>
