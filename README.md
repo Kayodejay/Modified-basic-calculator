@@ -1,14 +1,11 @@
 # WEB3BRIDGE project- JavaScript Calculator
 
-
-
 ## Table of contents
 
 - [WEB3BRIDGE project- JavaScript Calculator](#web3bridge-project--javascript-calculator)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [Links](#links)
-  - [My process](#my-process)
     - [Built with](#built-with)
     - [Useful resources](#useful-resources)
   - [Author](#author)
@@ -18,10 +15,8 @@
 
 ### Links
 
-- Solution URL: [https://github.com/Kayodejay/JavaScript-Calculator](https://github.com/Kayodejay/JavaScript-Calculator)
-- Live Site URL: [https://Kayode-calc.netlify.app](https://Kayode-calc.netlify.app)
-
-## My process
+- Solution URL: [https://github.com/Kayodejay/Modified-basic-calculator](https://github.com/Kayodejay/Modified-basic-calculator)
+- Live Site URL: [https://kayodejay.github.io/Modified-basic-calculator/](https://kayodejay.github.io/Modified-basic-calculator/)
 
 ### Built with
 
